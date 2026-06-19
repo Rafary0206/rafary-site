@@ -114,7 +114,7 @@ p {
 @media (max-width: 768px) {
 
     .date {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .card p {
@@ -122,8 +122,8 @@ p {
     }
 
     .card h3 {
-        font-size: 32px;
-        line-height: 1.5;
+        font-size: 24px;
+        line-height: 1.6;
     }
 
     .album-divider {
