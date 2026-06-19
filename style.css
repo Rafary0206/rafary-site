@@ -75,3 +75,31 @@ p {
     border: none;
     border-top: 1px solid rgba(255,255,255,0.2);
 }
+/* Discography */
+
+.date {
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #999;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.card h3 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 15px 0 25px;
+}
+
+.album-divider {
+    width: 70%;
+    margin: 40px auto;
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
