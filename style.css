@@ -131,3 +131,13 @@ p {
     }
 
 }
+
+.about h2 a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.about h2 a:hover {
+    opacity: 0.7;
+}
