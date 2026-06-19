@@ -75,12 +75,14 @@ p {
     border: none;
     border-top: 1px solid rgba(255,255,255,0.2);
 }
-/* Discography */
+/* =========================
+   Discography
+========================= */
 
 .date {
-    font-size: 28px;
-    font-weight: bold;
     display: block;
+    font-size: 22px;
+    font-weight: bold;
     margin-bottom: 15px;
 }
 
@@ -92,9 +94,10 @@ p {
 }
 
 .card h3 {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: bold;
     margin: 15px 0 25px;
+    line-height: 1.4;
 }
 
 .album-divider {
@@ -102,4 +105,29 @@ p {
     margin: 40px auto;
     border: none;
     border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+/* =========================
+   Smartphone
+========================= */
+
+@media (max-width: 768px) {
+
+    .date {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .card h3 {
+        font-size: 32px;
+        line-height: 1.5;
+    }
+
+    .album-divider {
+        width: 85%;
+    }
+
 }
