@@ -8,18 +8,28 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<a class="skip-link" href="#main-content">本文へ移動</a>
 
 <header>
 <h1>歌詞への想い</h1>
 <p>言葉に込めた感情と記憶 🎵🌙</p>
 </header>
 
-<nav>
-<a href="index.html">Home</a>
-<a href="blog.html">← Blogへ戻る</a>
+<nav class="site-nav" aria-label="メインナビゲーション">
+  <div class="nav-inner">
+    <a href="index.html">ホーム</a>
+    <a href="music.html">音楽</a>
+    <a href="discography.html">作品</a>
+    <a href="timeline.html">歩み</a>
+    <a href="blog.html" aria-current="page">読みもの</a>
+    <a href="camp.html">Camp</a>
+    <a href="tools.html">Tools</a>
+    <a href="story.html">Story</a>
+    <a href="sns.html">SNS</a>
+  </div>
 </nav>
 
-<section class="about">
+<main id="main-content" class="about">
 
 <p>
 𝓡𝓪𝓯𝓪𝓻𝔂の楽曲は、
@@ -68,7 +78,7 @@ Coming Soon...
 『Best Friend』誕生まで
 </p>
 
-</section>
-
+</main>
+<footer class="site-footer"><p>夜の余韻と感情を灯す場所 <span aria-hidden="true">🌙🔥</span></p></footer>
 </body>
 </html>
