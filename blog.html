@@ -3,96 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog | 𝓡𝓪𝓯𝓪𝓻𝔂</title>
+<meta name="description" content="歌詞への想い、音楽、Rafary Camp、物語など、𝓡𝓪𝓯𝓪𝓻𝔂の記録をカテゴリから探せます。">
+<title>読みもの | 𝓡𝓪𝓯𝓪𝓻𝔂</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
-<h1>Blog</h1>
-<p>𝓡𝓪𝓯𝓪𝓻𝔂の活動記録 📝🌙</p>
-</header>
-
-<nav>
-<a href="index.html">Home</a>
-<a href="music.html">Music</a>
-<a href="discography.html">Discography</a>
-<a href="timeline.html">Timeline</a>
-<a href="blog.html">Blog</a>
-<a href="camp.html">Rafary Camp</a>
-<a href="tools.html">Tools</a>
-<a href="story.html">Story</a>
-<a href="sns.html">SNS</a>
+<a class="skip-link" href="#main-content">本文へ移動</a>
+<header><p class="eyebrow">Journal & Notes</p><h1>読みもの</h1><p>音楽、映像、キャンプ、そして日常。<br>𝓡𝓪𝓯𝓪𝓻𝔂の歩みを記録する場所です。</p></header>
+<nav class="site-nav" aria-label="メインナビゲーション">
+  <div class="nav-inner">
+    <a href="index.html">ホーム</a>
+    <a href="music.html">音楽</a>
+    <a href="discography.html">作品</a>
+    <a href="timeline.html">歩み</a>
+    <a href="blog.html" aria-current="page">読みもの</a>
+    <a href="camp.html">Camp</a>
+    <a href="tools.html">Tools</a>
+    <a href="story.html">Story</a>
+    <a href="sns.html">SNS</a>
+  </div>
 </nav>
-
-<section class="about">
-
-<p>
-音楽、映像、キャンプ、そして日常。<br>
-𝓡𝓪𝓯𝓪𝓻𝔂の歩みを記録する場所です。
-</p>
-
-<hr class="album-divider">
-
-<h2>
-<a href="lyrics-thoughts.html">
-🎵 歌詞への想い
-</a>
-</h2>
-
-<p>
-曲に込めた想いや制作秘話を記録します。
-</p>
-
-<hr class="album-divider">
-
-<h2>
-<a href="album-record.html">
-💿 アルバム制作記録
-</a>
-</h2>
-
-<p>
-アルバム制作の進捗や裏話をまとめます。
-</p>
-
-<hr class="album-divider">
-
-<h2>
-<a href="mv-record.html">
-🎬 MV制作記録
-</a>
-</h2>
-
-<p>
-MV制作や246プロジェクトの記録です。
-</p>
-
-<hr class="album-divider">
-
-<h2>
-<a href="camp-record.html">
-🏕️ Rafary Camp
-</a>
-</h2>
-
-<p>
-キャンプ・DIY・木彫り作品の記録です。
-</p>
-
-<hr class="album-divider">
-
-<h2>
-<a href="daily-life.html">
-🌙 日常と創作
-</a>
-</h2>
-
-<p>
-日々の出来事や創作メモを残します。
-</p>
-
-</section>
-
+<main id="main-content" class="about">
+  <div class="section-heading"><p class="eyebrow">Categories</p><h2>カテゴリから探す</h2></div>
+  <div class="category-grid">
+    <a class="category-card" href="lyrics-thoughts.html"><span class="card-icon" aria-hidden="true">🎵</span><div><h3>歌詞への想い</h3><p>曲に込めた感情や制作の背景。</p><span class="card-link">記事を読む →</span></div></a>
+    <a class="category-card" href="discography.html"><span class="card-icon" aria-hidden="true">💿</span><div><h3>音楽と作品</h3><p>アルバムと楽曲の記録をたどる。</p><span class="card-link">作品を見る →</span></div></a>
+    <a class="category-card" href="camp.html"><span class="card-icon" aria-hidden="true">🏕️</span><div><h3>Rafary Camp</h3><p>焚き火、キャンプ、DIYの時間。</p><span class="card-link">Campを見る →</span></div></a>
+    <a class="category-card" href="timeline.html"><span class="card-icon" aria-hidden="true">🌙</span><div><h3>物語と歩み</h3><p>LafaryからRafaryへ続く記録。</p><span class="card-link">歩みを見る →</span></div></a>
+  </div>
+  <section class="latest" aria-labelledby="latest-title">
+    <div class="section-heading"><p class="eyebrow">Stories</p><h2 id="latest-title">公開中の記事</h2></div>
+    <div class="article-list">
+      <a class="article-row" href="mamoru-kara-thoughts.html"><span>歌詞への想い</span><strong>『守るから』に込めた想い</strong><span aria-hidden="true">→</span></a>
+      <a class="article-row" href="yoru-no-hanabi-thoughts.html"><span>制作秘話</span><strong>『夜の花火』制作秘話</strong><span aria-hidden="true">→</span></a>
+    </div>
+    <div class="coming-soon"><span aria-hidden="true">🔥</span><div><h3>これから増えていく記録</h3><p>アルバム制作、MV制作、日常と創作の記事は準備中です。</p></div></div>
+  </section>
+</main>
+<footer class="site-footer"><p>夜の余韻と感情を灯す場所 <span aria-hidden="true">🌙🔥</span></p></footer>
 </body>
 </html>

@@ -8,25 +8,28 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<a class="skip-link" href="#main-content">本文へ移動</a>
 
 <header>
 <h1>🌙 Rafary Timeline</h1>
 <p>LafaryからRafaryへ続く物語</p>
 </header>
 
-<nav>
-<a href="index.html">Home</a>
-<a href="music.html">Music</a>
-<a href="discography.html">Discography</a>
-<a href="timeline.html">Timeline</a>
-<a href="blog.html">Blog</a>
-<a href="camp.html">Rafary Camp</a>
-<a href="tools.html">Tools</a>
-<a href="story.html">Story</a>
-<a href="sns.html">SNS</a>
+<nav class="site-nav" aria-label="メインナビゲーション">
+  <div class="nav-inner">
+    <a href="index.html">ホーム</a>
+    <a href="music.html">音楽</a>
+    <a href="discography.html">作品</a>
+    <a href="timeline.html" aria-current="page">歩み</a>
+    <a href="blog.html">読みもの</a>
+    <a href="camp.html">Camp</a>
+    <a href="tools.html">Tools</a>
+    <a href="story.html">Story</a>
+    <a href="sns.html">SNS</a>
+  </div>
 </nav>
 
-<section class="about">
+<main id="main-content" class="about">
 
 <h2>Beginning</h2>
 
@@ -166,7 +169,7 @@ Rafaryは、これからも音楽と人生を記録していきます。
 </p>
 </div>
 
-</section>
-
+</main>
+<footer class="site-footer"><p>夜の余韻と感情を灯す場所 <span aria-hidden="true">🌙🔥</span></p></footer>
 </body>
 </html>
